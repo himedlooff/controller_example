@@ -19,6 +19,8 @@ A keyboard controller for Processing that handles left and right movement that r
 
 ##Setup:
 
+*Review the example sketch.*
+
 Create an instance of Controller.  
 `Controller gameController = new Controller();`
 
