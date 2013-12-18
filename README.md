@@ -12,10 +12,10 @@ A keyboard controller for Processing that handles left and right movement that r
 
 | Function Name | Return value |
 | ------------- | ------------ |
-| `handleKeyPress();` | Returns: nothing |
-| `handleKeyReleased();` | Returns: nothing |
-| `isGoingLeft();` | Returns: boolean |
-| `isGoingRight();` | Returns: boolean |
+| `handleKeyPress();` | nothing |
+| `handleKeyReleased();` | nothing |
+| `isGoingLeft();` | boolean |
+| `isGoingRight();` | boolean |
 
 ##Setup:
 
