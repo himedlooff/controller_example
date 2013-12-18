@@ -10,11 +10,6 @@ void setup() {
 
 void draw() {
 
-	// Manage key presses with the Controller class
-	if(keyPressed) {
-		gameController.handleKeyPress();
-	}
-
 	// Move the box left or right based on info from the Controller class
 	if(gameController.isGoingLeft()) {
 		x -= 3;
@@ -38,7 +33,11 @@ void draw() {
 
 }
 
-// Manage key releases with the Controller class
+// Manage key actions with the Controller class
+
+void keyPressed() {
+	gameController.handleKeyPress();
+}
 
 void keyReleased() {
 	gameController.handleKeyReleased();
